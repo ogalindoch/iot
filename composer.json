@@ -1,0 +1,25 @@
+{
+	"name"	: "euroglas/iot",
+	"type"	: "library",
+	"description"	: "Modulo de 'Internet Of Things', para EUROGLAS",
+	"keywords"	: ["iot","rest","euroglas"],
+	"homepage":	"http://euroglas.net",
+	"license":	"agpl-3.0",
+	"authors": [{
+			"name": "Octavio Galindo",
+			"email": "Octavio@euroglas.net",
+			"role": "Developer"
+	}],
+    "require": {
+		"euroglas/dbaccess": "dev-main",
+		"euroglas/authkey" : "dev-main",
+		"euroglas/eurorest": "dev-main"
+    },
+	"require-dev": {
+	},
+	"autoload": {
+		"psr-4": {
+			"euroglas\\iot\\": "src/"
+		}
+	}
+}
